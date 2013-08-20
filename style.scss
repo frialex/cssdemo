@@ -1,0 +1,21 @@
+ul 
+{ 
+	list-style-type: none;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+
+	border: 2.2px dashed;
+	padding: 0px;
+}
+
+ul:hover li , ul.hovered li
+{
+	display: block;
+	border: solid 1px;
+}
+
+li 
+{
+	display: none;
+}
